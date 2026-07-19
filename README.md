@@ -1,48 +1,58 @@
 # Automated Employee Onboarding & Offboarding System
 
-## Project Description
-This project automates employee onboarding and offboarding using ServiceNow. It reduces manual work by creating automated workflows using Flow Designer.
+## Project Overview
+The Automated Employee Onboarding & Offboarding System is developed using the ServiceNow platform to automate employee lifecycle management. The application streamlines onboarding and offboarding processes by reducing manual work through Service Catalog items, Flow Designer workflows, UI Policies, Roles, ACLs, and reporting.
+
+## Objectives
+- Automate employee onboarding and offboarding.
+- Reduce manual HR and IT tasks.
+- Improve employee lifecycle management.
+- Secure data using Roles and ACLs.
+- Track requests using reports.
 
 ## Features
 - Employee Lifecycle Table
 - Onboard Employee Catalog Item
 - Offboard Employee Catalog Item
-- Employee Variables
-- Automated Onboarding Flow
-- Automated Offboarding Flow
-- Catalog Tasks
-- Flow Designer Automation
-
-## Modules Used
-- Service Catalog
-- Flow Designer
-- Custom Table
-- Catalog Variables
-- Reports
-
-## Workflow
-
-### Employee Onboarding
-- Submit onboarding request
-- Flow triggers automatically
-- Employee Lifecycle record is created
-- HR Task created
-- IT Task created
-- Facilities Task created
-- Security Task created
-
-### Employee Offboarding
-- Submit offboarding request
-- Flow triggers automatically
-- Employee Lifecycle record is created
-- Asset Collection Task
-- Access Revocation Task
+- UI Policies for mandatory field validation
+- Employee Onboarding Flow
+- Employee Offboarding Flow
+- Roles and Access Control Lists (ACLs)
+- Employee Lifecycle Status Report
 
 ## Technologies Used
 - ServiceNow
-- Flow Designer
 - Service Catalog
-- Employee Lifecycle Table
+- Flow Designer
+- UI Policies
+- Roles
+- Access Control Lists (ACLs)
+- Reports
 
-## Project Outcome
-Successfully automated the employee onboarding and offboarding process using ServiceNow.
+## Workflow
+1. Create the Employee Lifecycle table.
+2. Create the Onboard Employee and Offboard Employee catalog items.
+3. Configure variables and UI Policies.
+4. Create onboarding and offboarding workflows using Flow Designer.
+5. Configure Roles and ACLs.
+6. Test the application and verify the report.
+
+## Project Screenshots
+The `screenshots` folder contains:
+- Employee Lifecycle Table
+- Onboard Employee Form
+- Offboard Employee Form
+- Employee Onboarding Flow
+- Employee Offboarding Flow
+- Roles
+- ACLs
+- Employee Lifecycle Status Report
+
+## Demo Video
+Demo Video: *(https://drive.google.com/file/d/1hPbPNYwbdxHB2T7VPN5rBubPTZBVHpn4/view?usp=sharing)*
+
+## Project Report
+The complete project documentation is included in this repository.
+
+## Conclusion
+This project successfully automates employee onboarding and offboarding using ServiceNow, improving efficiency, reducing manual effort, and providing secure, role-based access with automated workflows and reporting.
